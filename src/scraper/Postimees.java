@@ -12,7 +12,9 @@ public class Postimees {
 		Document document2 = Jsoup.connect("http://www.postimees.ee").get();
 		Elements pealkirjad2 = document2.select("h1.frontHeading");
 		for (Element element2 : pealkirjad2){
-			System.out.println(element2.text());
-		}}
+			System.out.println("Postimees: " + element2.text());
+		}
+		
 
+}
 }

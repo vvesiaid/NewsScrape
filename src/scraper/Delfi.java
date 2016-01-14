@@ -12,7 +12,7 @@ public class Delfi {
 		Document document1 = Jsoup.connect("http://www.delfi.ee").get();
 		Elements pealkirjad1 = document1.select("a.article-title");
 		for (Element element1 : pealkirjad1){
-			System.out.println(element1.text());
+			System.out.println("Delfi: " + element1.text());
 		}}
 
 }
