@@ -27,6 +27,7 @@ public class GetNews {
 		char a = TextIO.getChar();
 		System.out.print("Postimees (y/n):");
 		char p = TextIO.getChar();
+		//programm kutsub välja kasutaja valitud otsingud
 		if (d == 'y') {
 			System.out.println();
 			delfi(input);
