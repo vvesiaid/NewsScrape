@@ -12,7 +12,7 @@ import lib.TextIO;
 public class GetNews {
 
 	public static void main(String[] args) throws IOException {
-		System.out.println("Programm leiab kasutaja valikul Delfist, Äripäevast ning Postimehest pealkirjad,");
+		System.out.println("Programm leiab kasutaja valikul ajalehtede veebiväljaannetest pealkirjad,");
 		System.out.println("milles sisaldub kasutaja poolt valitud otsingusõna või -väljend.");
 		// Programm küsib kasutajalt otsingusõna või -väljendit, mida
 		// pealkirjadest otsida
